@@ -1,0 +1,21 @@
+.contact {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logo-container a {
+  margin: 0 10px;
+}
+
+.logo-container img {
+  width: 40px;
+  height: 40px;
+}

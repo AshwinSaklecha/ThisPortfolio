@@ -1,0 +1,29 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px 0;
+  border-radius: 8px;
+  height: 100vh;
+  width: 100%;
+}
+
+.home-text {
+  width: 45%;
+  font-size: 24px; /* Set the font size to relatively large */
+}
+
+.home-image {
+  width: 45%;
+  animation: moveImage 2s infinite alternate; 
+  background: transparent;
+  padding-right: 100px;
+}
+
+@keyframes moveImage {
+  from { transform: translateY(0); }
+  to { transform: translateY(-10px); }
+}
+
